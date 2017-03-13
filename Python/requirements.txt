@@ -1,0 +1,3 @@
+pip
+bs4
+pymysql

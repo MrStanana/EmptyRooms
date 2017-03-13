@@ -1,0 +1,2 @@
+CREATE USER ''@'localhost' IDENTIFIED BY '';
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE ON rooms.* TO ''@'localhost';

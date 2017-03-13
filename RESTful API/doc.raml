@@ -1,0 +1,24 @@
+#%RAML 0.8
+---
+title: Salas API
+baseUri: http://stanana.duckdns.org/api.php
+version: v1
+mediaType: application/json
+
+/salas:
+    get:
+/{sala}:
+    get:
+        queryParameters:
+            data:
+                displayName: data
+                type: string
+                description: Columns to get.
+                example: time
+                required: false
+                responses:
+                    200:
+                        body:
+                            application/json:
+                                example: |
+                                    {"time":"2017-01-15"}

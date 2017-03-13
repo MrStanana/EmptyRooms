@@ -1,0 +1,31 @@
+﻿table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+body {
+	font: normal 14px/150% Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	border: 1px solid #006699;
+	margin: auto;
+	width: 768px;
+}
+table td, table th {
+    padding: 20px 20px;
+    width:  50%;
+    border: 1px solid #006699;
+}
+table thead th {
+	background-color: #006699;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.cellDated {background-color: #FFCE33;}
+.cellEmpty {background-color: #00FF66;}
+.cellFull {background-color: #DD4400;}
+@media only screen and (max-device-width: 768px) {
+	body {
+		width: 100%;
+		font-size: 40px;
+	}
+}
